@@ -1,0 +1,24 @@
+{
+  "name": "@howtojs/website",
+  "version": "1.0.0",
+  "description": "The website code of how-to-javascript.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/howtojs/website.git"
+  },
+  "keywords": [
+    "docs",
+    "blog",
+    "website"
+  ],
+  "author": "Dominik Kundel <dominik.kundel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/howtojs/website/issues"
+  },
+  "homepage": "https://github.com/howtojs/website#readme"
+}
