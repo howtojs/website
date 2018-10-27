@@ -1,0 +1,1 @@
+export default () => <div>Welcome to how-to-javascript!</div>

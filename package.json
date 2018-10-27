@@ -4,6 +4,9 @@
   "description": "The website code of how-to-javascript.com",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/howtojs/website/issues"
   },
-  "homepage": "https://github.com/howtojs/website#readme"
+  "homepage": "https://github.com/howtojs/website#readme",
+  "dependencies": {
+    "@mdx-js/mdx": "^0.15.5",
+    "@zeit/next-mdx": "^1.2.0",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "rebass": "^2.3.4",
+    "styled-components": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
+    "jest": "^23.6.0"
+  }
 }
